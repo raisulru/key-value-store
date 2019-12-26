@@ -2,7 +2,7 @@ import os
 import redis
 
 redis_client = redis.Redis(host='localhost', port=6379, db=0)
-
+TTL_VALUE = 300 # SECONDS
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 

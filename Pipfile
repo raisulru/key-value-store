@@ -9,6 +9,7 @@ verify_ssl = true
 django = "==2.2"
 redis = "*"
 djangorestframework = "*"
+faker = "*"
 
 [requires]
 python_version = "3.7"
