@@ -25,4 +25,5 @@ Its a test project for key store with TTL.
 - Create virtualenv (I used pipenv)
 - Run `pipenv shell` and `pipenv install`
 - Run in your console `./runserver`
+- If you don't find `runserver` in your terminal then it will be a permission issue. Solve it by running `chmod a+x ./runserver`.
 - For running test run command `python manage.py test`
